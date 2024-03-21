@@ -7,6 +7,7 @@ body {
 .container {
     width: 80%;
     margin: 0 auto;
+
 }
 
 header {
@@ -53,3 +54,29 @@ footer {
     text-align: center;
     padding: 20px 0;
 }
+
+.logo-container {
+    width: 100px; /* Ajustez la taille de votre logo */
+    height: 100px; /* Ajustez la taille de votre logo */
+    border-radius: 100%; /* Transforme le conteneur en cercle */
+    overflow: hidden; /* Masque tout ce qui dépasse du conteneur */
+}
+
+.logo {
+    width: 100%; /* Ajustez la taille de votre logo */
+    height: 100%; /* Ajustez la taille de votre logo */
+    object-fit: cover; /* Garantit que l'image remplit le conteneur */
+    display: block;
+}
+
+/*.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    align-items: start; /* Aligne le contenu en haut de chaque case
+}
+
+.project {
+    border: 1px solid #ccc;
+    padding: 20px;
+}*/
