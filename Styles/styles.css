@@ -60,6 +60,7 @@ footer {
     height: 100px; /* Ajustez la taille de votre logo */
     border-radius: 100%; /* Transforme le conteneur en cercle */
     overflow: hidden; /* Masque tout ce qui dépasse du conteneur */
+
 }
 
 .logo {
